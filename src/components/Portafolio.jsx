@@ -1,9 +1,9 @@
-import estilos from '../modules/Portafolio.module.css'
+import estilos from '../modules/Portafolio.module.css';
 import { FaLink } from "react-icons/fa";
-import addendaImg from '/imgs/addendas.png'
-import residenciasImg from '/imgs/residencias.png'
-import PTMImg from '/imgs/PTM.png'
-import GEPImg from '/imgs/GEP.png'
+import addendaImg from '/imgs/addendas.png';
+import residenciasImg from '/imgs/residencias.png';
+import PTMImg from '/imgs/PTM.png';
+import GEPImg from '/imgs/GEP.png';
 
 
 
@@ -56,7 +56,7 @@ const PortafolioComponent = () => {
             </div>
             <div className={estilos.item}>
                 <div className={estilos.imagen}>
-                    <img className={estilos.imagen} src={residenciasImg} alt="residencias" />
+                    <img className={estilos.imagen} src={residenciasImg} />
                 </div>
                 <div className={estilos.tituloItem}>
                     Sistema de residentes
@@ -100,7 +100,7 @@ const PortafolioComponent = () => {
             </div>
             <div className={estilos.item}>
                 <div className={estilos.imagen}>
-                    <img className={estilos.imagen} src={PTMImg} alt="residencias" />
+                    <img className={estilos.imagen} src={PTMImg} alt="PublicaTuMarca" />
                 </div>
                 <div className={estilos.tituloItem}>
                     PublicaTuMarca
@@ -131,7 +131,7 @@ const PortafolioComponent = () => {
             </div>
             <div className={estilos.item}>
                 <div className={estilos.imagen}>
-                    <img className={estilos.imagen} src={GEPImg} alt="addendas" />
+                    <img className={estilos.imagen} src={GEPImg} alt="GestionExpPlus" />
                 </div>
                 <div className={estilos.tituloItem}>
                     GestionExpPlus
