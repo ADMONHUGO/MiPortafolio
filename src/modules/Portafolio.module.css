@@ -1,0 +1,137 @@
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imagen{
+    max-width: 280px;
+    width: auto;
+    max-height: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.tituloItem{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.descripcion{
+    font-size: 14px;
+    margin: 5px 0px 5px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.item{
+    background-color: white;
+    max-width: 280px;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 10px 8px 14px;
+}
+.tecnologias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.html5{
+    margin: 5px;
+    background-color: #e4380d;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.css3{
+    margin: 5px;
+    background-color: #0e25a7;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.js{
+    margin: 5px;
+    background-color: #ece938;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(36, 36, 36);
+    font-size: 12px;
+}
+.bootstrap{
+    margin: 5px;
+    background-color: #370ab3;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.django{
+    margin: 5px;
+    background-color: rgb(2, 88, 20);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.python{
+    margin: 5px;
+    background-color: #1c4aa0;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.postgresql{
+    margin: 5px;
+    background-color: #1a1cb4;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.jQuery{
+    margin: 5px;
+    background-color: #3436ac;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.reactJs{
+    margin: 5px;
+    background-color: rgb(53, 110, 196);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+}
+

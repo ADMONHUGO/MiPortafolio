@@ -1,0 +1,20 @@
+.menu{
+    display: flex;
+    width: 100%;
+    min-height: 120px;
+   
+  }
+  .listItem{
+    list-style-type: None;
+  }
+  .item{
+    background-color: rgb(21, 21, 255);
+    float: left;
+    margin: 3px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  .item:hover{
+    background-color: #a8a8f8;
+  }

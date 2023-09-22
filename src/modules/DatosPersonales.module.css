@@ -1,0 +1,172 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    max-height: 400px;
+    flex-wrap: wrap;
+    color: white;
+    padding-bottom: 260px;
+    
+    
+}
+.subContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;    
+}
+.textos{
+    max-width: 600px;
+}
+.tituloNombre{
+    font-size: 30px;
+    text-align: center;
+}
+.imgnombre{
+    border-radius: 50%;
+    width: 250px;
+    margin-right: 10px;
+}
+.bienvenidos{
+    font-size: 25px;
+
+}
+.carrera, .correo{
+    font-size: 20px;
+}
+.github{
+    margin: 25px 10px 10px 10px;
+    padding: 10px;
+    opacity: 1;
+}
+.redesSociales{
+    border-radius: 8px;
+    opacity: .6;
+    background-color: rgb(253, 253, 253);
+    max-width: 450px;
+    width: auto;
+    
+}
+.tituloIdiomas{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.espanol, .ingles{
+    padding: 5px;
+    background-color: #dd742d;
+    color: white;
+    max-width: 200px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.btnDescCV{
+    background-color: #8f15b4;
+    border-radius: 5px;
+    padding: 7px;
+    outline: none;
+    border: 0px;
+}
+.btnDescCV a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    .subContenedor{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;    
+    }
+    .textos{
+        max-width: 500px;
+    }
+    .tituloNombre{
+        font-size: 26px;
+    
+    }
+    .imgnombre{
+        border-radius: 50%;
+        width: 195px;
+    }
+    .bienvenidos{
+        font-size: 16px;    
+    }
+    .carrera, .correo{
+        font-size: 16px;
+    }
+    .github{
+        margin: 25px 10px 10px 10px;
+        padding: 10px;
+        opacity: 1;
+        
+    }
+    .redesSociales{
+        border-radius: 8px;
+        opacity: .6;
+        background-color: rgb(253, 253, 253);
+        max-width: 360px;
+        width: auto;
+        margin: 10px;
+        
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 250px;
+        max-height: 450px;
+        flex-wrap: wrap;
+        color: white;
+        padding-bottom: 120px;
+    }
+    .contenedorCV{
+        margin-left: 4px;
+    }
+    .idiomas{
+        margin-left: 4px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .tituloNombre{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .imgnombre{
+        padding: 7px;
+        border-radius: 50%;
+        width: 210px;
+
+    }
+    .bienvenidos{
+        font-size: 17px;
+
+    }
+    .carrera, .correo{
+        font-size: 17px;
+        
+    }
+    .github{
+        margin: 25px 10px 10px 10px;
+        padding: 10px;
+        opacity: 1;
+        
+    }
+    .redesSociales{
+        border-radius: 8px;
+        opacity: .6;
+        background-color: rgb(253, 253, 253);
+        max-width: 360px;
+        width: auto;
+        margin: 0px 8px 0px 0px;
+        
+    }
+
+
+}
+

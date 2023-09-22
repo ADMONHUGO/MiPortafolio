@@ -1,0 +1,39 @@
+.titulo{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.item{
+    padding: 10px;
+    margin: 10px;
+    background-color: #16a1b9;
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .contenedor{
+        display: flex;
+
+        flex-direction: column;
+    
+    }
+}
+@media only screen and (max-width: 768px) {
+    .contenedor{
+        display: flex;
+        
+        flex-direction: column;
+    
+    }
+}
