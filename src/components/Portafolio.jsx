@@ -2,8 +2,8 @@ import estilos from '../modules/Portafolio.module.css';
 import { FaLink } from "react-icons/fa";
 import addendaImg from '/imgs/pa.png';
 import residenciasImg from '/imgs/pr.png';
-import PTMImg from '/imgs/otm.png';
-import GEPImg from '/imgs/gep.png';
+import PTMImg from '/imgs/pptm.png';
+import GEPImg from '/imgs/pgep.png';
 
 
 
