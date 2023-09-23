@@ -49,7 +49,7 @@ const PortafolioComponent = () => {
                 </div>
                 <div className={estilos.enlaces}>
                     <div className="url">
-                        <a href="https://addendas.yezdo.com/"><FaLink /></a>
+                        <a href="https://addendas.yezdo.com/" target='_blanck'><FaLink /></a>
                     </div>
 
                 </div>

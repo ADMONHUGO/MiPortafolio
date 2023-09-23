@@ -3,7 +3,7 @@
     margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: #f0f0f0;
 }
 .contenedor{
     display: flex;
@@ -14,7 +14,7 @@
 .item{
     padding: 10px;
     margin: 10px;
-    background-color: rgb(55, 212, 76);
+    background-color: #EE964B;
     border-radius: 8px;
     font-weight: bold;
     color: rgb(255, 255, 255);

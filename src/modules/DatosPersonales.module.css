@@ -56,14 +56,14 @@
 .espanol, .ingles{
     padding: 5px;
     background-color: #dd742d;
-    color: white;
+    color: #ececec;
     max-width: 200px;
     border-radius: 8px;
     margin-bottom: 5px;
     text-align: center;
 }
 .btnDescCV{
-    background-color: #8f15b4;
+    background-color: #8F3985;
     border-radius: 5px;
     padding: 7px;
     outline: none;
@@ -71,7 +71,7 @@
 }
 .btnDescCV a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #ececec;
 }
 
 @media only screen and (max-width: 600px) {
@@ -83,6 +83,9 @@
     .textos{
         max-width: 500px;
     }
+    .textoDescriptivo {
+        padding-left: 15px;
+    }
     .tituloNombre{
         font-size: 26px;
     
@@ -92,10 +95,12 @@
         width: 195px;
     }
     .bienvenidos{
-        font-size: 16px;    
+        font-size: 16px;
+        padding-left: 15px;  
     }
     .carrera, .correo{
         font-size: 16px;
+        padding-left: 15px;
     }
     .github{
         margin: 25px 10px 10px 10px;
@@ -111,6 +116,7 @@
         width: auto;
         margin: 10px;
         
+        
     }
     .contenedor{
         display: flex;
@@ -123,10 +129,10 @@
         padding-bottom: 320px;
     }
     .contenedorCV{
-        margin-left: 4px;
+        margin-left: 15px;
     }
     .idiomas{
-        margin-left: 4px;
+        margin-left: 15px;
     }
 
 }
