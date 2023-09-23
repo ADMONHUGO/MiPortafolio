@@ -170,7 +170,7 @@ const PortafolioComponent = () => {
                 </div>
                 <div className={estilos.enlaces}>
                     <div className="url">
-                        <a href="https://gestionexpplus.com/"><FaLink /></a>
+                        <a href="https://gestionexpplus.com/" target="_blank"><FaLink /></a>
                     </div>
 
                 </div>
