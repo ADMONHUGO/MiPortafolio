@@ -14,33 +14,29 @@
 .item{
     padding: 10px;
     margin: 10px;
-    background-color: #16a1b9;
     border-radius: 8px;
-    font-weight: bold;
-    color: #fdfdfd;
     transform: scale(var(--escala, 1));
     transition: transform 0.25s;
 
 }
 .item:hover{
     --escala: 1.1;
-    box-shadow: 5px 5px 60px #f3ece5;
-    color: white;
+   
  
  }
 @media only screen and (max-width: 600px) {
-    .contenedor{
-        display: flex;
-
-        flex-direction: column;
-    
-    }
+ 
 }
 @media only screen and (max-width: 768px) {
-    .contenedor{
-        display: flex;
-        
-        flex-direction: column;
-    
-    }
+  
+}
+
+.iconos{
+    width: 45px;
+}
+.iconosv2{
+    width: 65px;
+}
+.iconosv3{
+    width: 70px;
 }

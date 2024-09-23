@@ -5,7 +5,7 @@
     min-height: 250px;
     max-height: 400px;
     flex-wrap: wrap;
-    color: white;
+    color: #111111;
     padding-bottom: 260px;
     
     
@@ -38,15 +38,22 @@
 .github{
     margin: 25px 10px 10px 10px;
     padding: 10px;
-    opacity: 1;
+  
 }
 .redesSociales{
     border-radius: 8px;
-    opacity: .6;
-    background-color: rgb(253, 253, 253);
+  
+    background-color: #fdfdfdda;
     max-width: 450px;
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
     
+}
+.margen{
+    margin-right: 10px;
 }
 .tituloIdiomas{
     font-size: 20px;
@@ -88,11 +95,24 @@
     color: #ececec;
 }
 
+
+
+.imagenFondo{
+    background-image: url(../imgs/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40em;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .subContenedor{
         display: flex;
         flex-direction: column;
         padding-bottom: 50px;    
+        color: #111111;
     }
     .textos{
         max-width: 500px;
@@ -119,13 +139,13 @@
     .github{
         margin: 25px 10px 10px 10px;
         padding: 10px;
-        opacity: 1;
+      
         
     }
     .redesSociales{
         border-radius: 8px;
-        opacity: .6;
-        background-color: rgb(253, 253, 253);
+     
+        background-color: #fdfdfdd5;
         max-width: 360px;
         width: auto;
         margin: 10px;
@@ -174,13 +194,13 @@
     .github{
         margin: 25px 10px 10px 10px;
         padding: 10px;
-        opacity: 1;
+        
         
     }
     .redesSociales{
         border-radius: 8px;
-        opacity: .6;
-        background-color: rgb(253, 253, 253);
+      
+        background-color: #ffffffd1;
         max-width: 360px;
         width: auto;
         margin: 0px 8px 0px 0px;

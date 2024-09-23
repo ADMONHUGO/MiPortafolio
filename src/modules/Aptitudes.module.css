@@ -3,7 +3,7 @@
     margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
-    color: #f0f0f0;
+    color: #111111;
 }
 .contenedor{
     display: flex;
@@ -29,11 +29,20 @@
 
 }
 
+
+
+
 @media only screen and (max-width: 600px) {
     .contenedor{
         display: flex;
         justify-content: center;
         flex-direction: column;
+    
+    }
+    .item:hover{
+        --escala: 1;
+       box-shadow: 5px 5px 60px #f3ece5;
+       color: white;
     
     }
    
@@ -44,6 +53,12 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    
+    }
+    .item:hover{
+        --escala: 1;
+       box-shadow: 5px 5px 60px #f3ece5;
+       color: white;
     
     }
 }

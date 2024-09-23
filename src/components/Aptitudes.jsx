@@ -8,7 +8,7 @@ const AptitudesComponent = () => {
             </div>
             <div className={estilos.contenedor}>
                 <div className={estilos.item}>
-                    Relación con Clientes
+                    Atención a clientes
                 </div>
                 <div className={estilos.item}>
                     Front-End
@@ -23,9 +23,11 @@ const AptitudesComponent = () => {
                     Desarrollo y Diseño de Proyectos
                 </div>
                 <div className={estilos.item}>
-                    Capacidad de Aprender Rapidamente
+                    Aprender Rapidamente
                 </div>
             </div>
+
+            
         </>
     )
 }
