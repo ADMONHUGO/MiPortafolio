@@ -169,6 +169,15 @@
         margin-left: 15px;
     }
 
+    
+    .imagenFondo{
+        background-image: url(../imgs/background1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 55em;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
