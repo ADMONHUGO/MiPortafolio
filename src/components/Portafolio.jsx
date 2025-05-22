@@ -11,7 +11,7 @@ const PortafolioComponent = () => {
     return (
         <>
         <div className={estilos.titulo}>
-            PORTAFOLIO
+            EXPERIENCIA
         </div>
         <div className={estilos.contenedor}>
             <div className={estilos.item}>

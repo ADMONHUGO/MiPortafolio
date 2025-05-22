@@ -11,3 +11,34 @@ body{
 
 
 
+.tabs{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-bottom: 2px solid rgb(66, 6, 156);
+
+  
+}
+.tabsItemsActivo{
+  background-color: #EE964B;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-right: 2px;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+.tabsItemsInactivo{
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-right: 2px;
+  border: 0px;
+  cursor: pointer;
+}
+.btnTabs{
+  background-color: transparent;
+  border: 0px;
+}

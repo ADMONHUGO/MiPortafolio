@@ -43,7 +43,7 @@
 .redesSociales{
     border-radius: 8px;
   
-    background-color: #fdfdfdda;
+    background-color: transparent;
     max-width: 450px;
     width: auto;
     display: flex;
@@ -145,7 +145,7 @@
     .redesSociales{
         border-radius: 8px;
      
-        background-color: #fdfdfdd5;
+        background-color: transparent;
         max-width: 360px;
         width: auto;
         margin: 10px;
@@ -209,7 +209,7 @@
     .redesSociales{
         border-radius: 8px;
       
-        background-color: #ffffffd1;
+        background-color: transparent;
         max-width: 360px;
         width: auto;
         margin: 0px 8px 0px 0px;

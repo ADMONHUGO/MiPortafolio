@@ -2,7 +2,7 @@
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #111111;
 }
 .contenedor{
@@ -17,12 +17,10 @@
     border-radius: 8px;
     transform: scale(var(--escala, 1));
     transition: transform 0.25s;
-
 }
 .item:hover{
     --escala: 1.1;
-   
- 
+    
  }
 @media only screen and (max-width: 600px) {
  
@@ -40,3 +38,70 @@
 .iconosv3{
     width: 70px;
 }
+/* .tabs{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+    
+}
+.tabsItemsActivo{
+    background-color: #EE964B;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: 2px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-bottom: 1px solid #100375;
+}
+.tabsItemsInactivo{
+    padding: 5px;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+    margin-right: 2px;
+}
+.btnTabs{
+    background-color: transparent;
+    border: 0px;
+} */
+.card{
+    background-color: #EE964B;
+    width: auto;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 20px 10px 20px;
+
+}
+.columna{
+    margin: 5px;
+    flex: 1;
+}
+.card{
+    padding: 10px;
+    border-radius: 7px;
+}
+.cardTitle{
+    text-align: center;
+    color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #100375;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.cardBody{
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.card:hover{
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
