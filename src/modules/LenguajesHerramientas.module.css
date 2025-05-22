@@ -5,10 +5,16 @@
     font-size: 25px;
     color: #111111;
 }
+.subTitulo{
+    text-align: start;
+    padding-left: 40px;
+}
 .contenedor{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
 
 }
 .item{
@@ -104,4 +110,22 @@
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
 
+img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
