@@ -11,12 +11,29 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 .imagen{
     max-width: 280px;
     width: auto;
     max-height: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.contenedorDos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+}
+.imagenGif{
+    max-width: 600px;
+    width: auto;
+    max-height: 400px;
     height: 200px;
     object-fit: cover;
     margin-bottom: 5px;

@@ -13,7 +13,7 @@ const DatosPersonales = () => {
                     <img className={estilos.imgnombre} src={HugoImg} alt="Hugo" />
                     <div className={estilos.textos}>
                         <p className={estilos.tituloNombre}>Mi nombre es Hugo Sánchez Mora</p>
-                        <h4>Sobre mi</h4>
+                        <h3>Sobre mi</h3>
                         <p className={estilos.textoDescriptivo}>Me gusta el desarrollo de páginas web, así como aprender nuevas tecnologías, que permitan seguir desarrollandome profesionalmente.</p>
                         <p className={estilos.textoDescriptivo}>Con el paso del tiempo he podido desarrollar algunos sistemas web y poder adquirir conocimientos que me han permitido expandir más mis hábilidades. </p>
                         <p className={estilos.bienvenidos}>Bienvenidos a mi portafolio como desarrollador web FULLSTACK</p>

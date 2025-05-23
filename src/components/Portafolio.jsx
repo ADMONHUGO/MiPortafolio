@@ -4,6 +4,8 @@ import addendaImg from '/imgs/pa.png';
 import residenciasImg from '/imgs/pr.png';
 import PTMImg from '/imgs/pptm.png';
 import GEPImg from '/imgs/pgep.png';
+import PuntoVenta from '/imgs/PuntoVentaGif.gif';
+
 
 
 
@@ -170,12 +172,56 @@ const PortafolioComponent = () => {
                 </div>
                 <div className={estilos.enlaces}>
                     <div className="url">
-                        <a href="https://gestionexpplus.com/" target="_blank"><FaLink /></a>
+                        <a href="https://gestionexpplus.com/" target="_blank" rel="noreferrer"><FaLink /></a>
                     </div>
 
                 </div>
             </div>
+            <div className={estilos.item}>
+                <div className={estilos.imagen}>
+                    <img className={estilos.imagenGif} src={PuntoVenta} alt="PuntoVenta" />
+                </div>
+                <div className={estilos.tituloItem}>
+                    Punto de Venta
+                </div>
+                <div className={estilos.descripcion}>
+                    Sistema que permite llevar el control del inventario y de los clientes así como cuentas por pagar de un negocio. 
+                    <br />
+                    <br />
+                </div>
+                <div className={estilos.tecnologias}>
+                    <div className={estilos.html5}>
+                        HTML5
+                    </div>
+                    <div className={estilos.css3}>
+                        CSS3
+                    </div>
+                    <div className={estilos.js}>
+                        JavaScript
+                    </div>
+                    <div className={estilos.bootstrap}>
+                        Bootstrap
+                    </div>
+                    <div className={estilos.django}>
+                        React JS
+                    </div>
+                    <div className={estilos.python}>
+                        Node JS
+                    </div>
+                    <div className={estilos.postgresql}>
+                        Postgresql
+                    </div>
+                    <div className={estilos.jQuery}>
+                        jQuery
+                    </div>
+                    <div className={estilos.jQuery}>
+                        Express
+                    </div>
+                </div>
+                
+            </div>
         </div>
+       
         
         </>
     )

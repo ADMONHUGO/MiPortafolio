@@ -96,27 +96,26 @@ const LenguajeHerramientasConponent = () => {
                     <div className={estilos.item} title='API REST'>
                         <img className={estilos.iconosv2} src={logoRestApi} alt="API Rest" />
                     </div>
-                    <div className={estilos.item} title='Postman'>
-                        <img className={estilos.iconosv3} src={logoPostman} alt="Postman" />
-                    </div>
                 </div>
                 <h4 className={estilos.subTitulo}>Base de datos, entre otros</h4>
                 <div className={estilos.contenedor}>
-                    <div className={estilos.item} title='Linux'>
-                        <img className={estilos.iconosv2} src={logoLinux} alt="Linux" />
+                    <div className={estilos.item} title='PL/SQL'>
+                        <img className={estilos.iconosv2} src={logoPLSQL} alt="PL/SQL" />
+                    </div>
+                    <div className={estilos.item} title='PostgreSQL'>
+                        <img className={estilos.iconos} src={logoPostgresql} alt="Postgresql" />
                     </div>
                     <div className={estilos.item} title='Git'>
                         <img className={estilos.iconos} src={Git} alt="Git" />
                     </div>
-                    <div className={estilos.item} title='PL/SQL'>
-                        <img className={estilos.iconosv2} src={logoPLSQL} alt="PL/SQL" />
-                    </div>
-                    
-                    <div className={estilos.item} title='PostgreSQL'>
-                        <img className={estilos.iconos} src={logoPostgresql} alt="Postgresql" />
-                    </div>
                     <div className={estilos.item} title='Metodología SCRUM'>
                         <img className={estilos.iconos} src={logoScrum} alt="Scrum" />
+                    </div>
+                    <div className={estilos.item} title='Linux'>
+                        <img className={estilos.iconosv2} src={logoLinux} alt="Linux" />
+                    </div>
+                    <div className={estilos.item} title='Postman'>
+                        <img className={estilos.iconosv3} src={logoPostman} alt="Postman" />
                     </div>
                 </div>
 
