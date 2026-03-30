@@ -170,16 +170,10 @@ const PortafolioComponent = () => {
                     </div>
 
                 </div>
-                <div className={estilos.enlaces}>
-                    <div className="url">
-                        <a href="https://gestionexpplus.com/" target="_blank" rel="noreferrer"><FaLink /></a>
-                    </div>
-
-                </div>
             </div>
             <div className={estilos.item}>
                 <div className={estilos.imagen}>
-                    <img className={estilos.imagenGif} src={PuntoVenta} alt="PuntoVenta" />
+                    <img className={estilos.imagen} src={PuntoVenta} alt="PuntoVenta" />
                 </div>
                 <div className={estilos.tituloItem}>
                     Punto de Venta
@@ -218,7 +212,6 @@ const PortafolioComponent = () => {
                         Express
                     </div>
                 </div>
-                
             </div>
         </div>
        

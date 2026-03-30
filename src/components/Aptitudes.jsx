@@ -11,23 +11,18 @@ const AptitudesComponent = () => {
                     Atención a clientes
                 </div>
                 <div className={estilos.item}>
-                    Front-End
+                    Respetuoso
                 </div>
                 <div className={estilos.item}>
-                    Back-End
+                    Amigable
                 </div>
                 <div className={estilos.item}>
-                    Bases de Datos
+                    Compromiso
                 </div>
                 <div className={estilos.item}>
-                    Desarrollo y Diseño de Proyectos
+                    Habilidades informáticas
                 </div>
-                <div className={estilos.item}>
-                    Aprender Rapidamente
-                </div>
-            </div>
-
-            
+            </div>            
         </>
     )
 }

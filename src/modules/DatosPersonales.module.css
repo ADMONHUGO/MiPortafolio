@@ -23,7 +23,7 @@
     font-size: 16px;
 }
 .tituloNombre{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 .imgnombre{
@@ -32,11 +32,12 @@
     margin-right: 10px;
 }
 .bienvenidos{
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
 
 }
-.carrera, .correo{
-    font-size: 20px;
+.carrera, .correo, .escuela{
+    font-size: 18px;
 }
 .github{
     margin: 25px 10px 10px 10px;
@@ -45,7 +46,6 @@
 }
 .redesSociales{
     border-radius: 8px;
-  
     background-color: transparent;
     max-width: 450px;
     width: auto;
@@ -53,7 +53,6 @@
     align-items: center;
     justify-content: flex-start;
     padding: 5px;
-    
 }
 .margen{
     margin-right: 10px;
@@ -65,7 +64,7 @@
 }
 .espanol, .ingles{
     padding: 5px;
-    background-color: #EE964B;
+    background-color: #074193;
     color: #fff;
     max-width: 200px;
     border-radius: 8px;

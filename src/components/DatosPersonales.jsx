@@ -1,7 +1,7 @@
 import estilos from '../modules/DatosPersonales.module.css'
-import { FaAt, FaDochub, FaGithub, FaLinkedin  } from 'react-icons/fa';
+import { FaAt, FaGithub, FaLinkedin, FaSchool, FaAward  } from 'react-icons/fa';
 import pdf from '../../src/CurriculumVitae.pdf'
-import HugoImg from '../imgs/FotoCVHugo.png'
+import HugoImg from '../imgs/FotoCVHugo.jpeg'
 
 
 const DatosPersonales = () => {
@@ -12,12 +12,12 @@ const DatosPersonales = () => {
                 <div className={estilos.subContenedor}>
                     <img className={estilos.imgnombre} src={HugoImg} alt="Hugo" />
                     <div className={estilos.textos}>
-                        <p className={estilos.tituloNombre}>Mi nombre es Hugo Sánchez Mora</p>
+                        <p className={estilos.tituloNombre}>Mi nombre es <b>Hugo Sánchez Mora</b></p>
                         <h3>Sobre mi</h3>
-                        <p className={estilos.textoDescriptivo}>Me gusta el desarrollo de páginas web, así como aprender nuevas tecnologías, que permitan seguir desarrollandome profesionalmente.</p>
-                        <p className={estilos.textoDescriptivo}>Con el paso del tiempo he podido desarrollar algunos sistemas web y poder adquirir conocimientos que me han permitido expandir más mis hábilidades. </p>
+                        <p className={estilos.textoDescriptivo}>Programador con amplia experiencia en el desarrollo web y gran gusto por el desarrollo de sistemas. Empleo mis habilidades y aptitudes parar ofrecer buenos resultados. Busco aportar mis conocimientos a una empresa orientada a los resultados.</p>
                         <p className={estilos.bienvenidos}>Bienvenidos a mi portafolio como desarrollador web FULLSTACK</p>
-                        <p className={estilos.carrera}><FaDochub fontSize={18} /> Ingeniero en Sistemas Computacionales</p>
+                        <p className={estilos.escuela}><FaSchool fontSize={18}/> Instituto Técnologico Superior de Ciudad Hidalgo</p>
+                        <p className={estilos.carrera}><FaAward fontSize={18} /> Ingeniero en Sistemas Computacionales</p>
                         <p className={estilos.correo}><FaAt fontSize={18}/> Hugo.Sanchez.Mora@hotmail.com</p>
                         <div className={estilos.contenedorCV}>
                             <button className={estilos.btnDescCV}>
@@ -36,13 +36,9 @@ const DatosPersonales = () => {
                             </div>
                         </div>
                         <div className={estilos.redesSociales}>
-                            
                                 <a href="https://github.com/ADMONHUGO" className={estilos.margen} target='_blanck' title='GitHub' ><FaGithub fontSize={35} /></a>  
                                 <a href="https://www.linkedin.com/in/hugo-sanchez-mora135790/" target='_blanck' title='LINKEDIN' ><FaLinkedin  fontSize={35} /></a>
-                        
-                                
                         </div>
-
                     </div>
                 </div>
             </div>
